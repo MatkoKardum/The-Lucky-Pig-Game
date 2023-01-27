@@ -1,5 +1,5 @@
-The Lucky Pig Game
+## The Lucky Pig Game
 
-Working site :
+## Working site :
 
 [https://matej-the-lucky-pig-game.netlify.app/](https://matej-the-lucky-pig-game.netlify.app/)
