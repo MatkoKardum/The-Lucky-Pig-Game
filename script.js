@@ -65,11 +65,12 @@ btnHold.addEventListener('click', function () {
       document
         .querySelector(`.player--${activePlayer}`)
         .classList.add('player--winner');
+      document.querySelector(`#current--${activePlayer}`).textContent = 0;
       playing = false;
+    } else {
+      switchPlayer();
+      score = 0;
     }
-
-    switchPlayer();
-    score = 0;
   }
 });
 
